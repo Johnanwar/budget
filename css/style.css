@@ -1,0 +1,98 @@
+.background{
+    background-image: url(../images/back.png)
+}
+.white-color{
+    color:#fff;
+}
+.income{
+    background-color: #28B9B5;
+    width:35%;
+}
+.expenses{
+    width:35%;
+    background-color: #FF5049;
+}
+#percentage{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 3px;
+    color:#fff;
+}
+.add{
+    background-color: #f7f7f7;
+    border:solid 1px #e7e7e7;
+}
+.add .container{
+    width:50%;
+    margin: auto;
+}
+.add-select{
+    width:55px;
+    height:33px;
+    margin-top:5px;
+    border: solid 1px #28B9B5;
+}
+.add-value{
+    background-color: transparent;
+    border:none;
+}
+.add-value .fa-check-circle{
+    color:#28B9B5;
+    cursor: pointer;
+}
+.all-data h2{
+    color:#28B9B5;
+    border-bottom: 1px solid #e7e7e7;
+}
+.data{
+    border-bottom: 1px solid #e7e7e7;
+}
+.amount-income{
+    color: #28B9B5;
+}
+.amount-income:hover .fa-times-circle{
+    display: inline-block;
+    transition: all 1s;
+}
+.amount-income:hover #amount-income {
+    margin-right: 10px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.exp{
+    color:#FF5049 !important;
+}
+.amount-expenses{
+    color:#FF5049;
+}
+.fa-times-circle{
+    display: none;
+}
+.amount-expenses:hover .fa-times-circle{
+    display: inline-block;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.amount-expenses:hover #amount-expenses{
+  margin-right: 10px;
+  transition: all 1s;
+}
+.fa-times-circle{
+    cursor: pointer;
+}
+
+#percentage-exp{
+    transition: transform 0.3s;
+    font-size: 11px;
+    background-color: #FFDAD9;
+    padding: 3px;
+    border-radius: 3px;
+    width: 32px;
+    text-align: center;
+}
